@@ -1,0 +1,6 @@
+Invoking command in '/home/nimisha/work1/build/lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/nimisha/work1/src/lidar -DCMAKE_INSTALL_PREFIX=/home/nimisha/work1/install/lidar
+Invoked command in '/home/nimisha/work1/build/lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/nimisha/work1/src/lidar -DCMAKE_INSTALL_PREFIX=/home/nimisha/work1/install/lidar
+Invoking command in '/home/nimisha/work1/build/lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nimisha/work1/build/lidar -- -j8 -l8
+Invoked command in '/home/nimisha/work1/build/lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nimisha/work1/build/lidar -- -j8 -l8
+Invoking command in '/home/nimisha/work1/build/lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nimisha/work1/build/lidar
+Invoked command in '/home/nimisha/work1/build/lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nimisha/work1/build/lidar

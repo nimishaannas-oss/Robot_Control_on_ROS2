@@ -1,0 +1,17 @@
+/home/nimisha/work1/install/lidar/share/lidar/scripts/lidar.py
+/home/nimisha/work1/install/lidar/lib/lidar/lidar.py
+/home/nimisha/work1/install/lidar/share/ament_index/resource_index/package_run_dependencies/lidar
+/home/nimisha/work1/install/lidar/share/ament_index/resource_index/parent_prefix_path/lidar
+/home/nimisha/work1/install/lidar/share/lidar/environment/ament_prefix_path.sh
+/home/nimisha/work1/install/lidar/share/lidar/environment/ament_prefix_path.dsv
+/home/nimisha/work1/install/lidar/share/lidar/environment/path.sh
+/home/nimisha/work1/install/lidar/share/lidar/environment/path.dsv
+/home/nimisha/work1/install/lidar/share/lidar/local_setup.bash
+/home/nimisha/work1/install/lidar/share/lidar/local_setup.sh
+/home/nimisha/work1/install/lidar/share/lidar/local_setup.zsh
+/home/nimisha/work1/install/lidar/share/lidar/local_setup.dsv
+/home/nimisha/work1/install/lidar/share/lidar/package.dsv
+/home/nimisha/work1/install/lidar/share/ament_index/resource_index/packages/lidar
+/home/nimisha/work1/install/lidar/share/lidar/cmake/lidarConfig.cmake
+/home/nimisha/work1/install/lidar/share/lidar/cmake/lidarConfig-version.cmake
+/home/nimisha/work1/install/lidar/share/lidar/package.xml
