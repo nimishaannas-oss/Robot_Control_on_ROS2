@@ -1,0 +1,9 @@
+/home/nimisha/work1/build/wheels/CMakeFiles/uninstall.dir
+/home/nimisha/work1/build/wheels/CMakeFiles/wheels_uninstall.dir
+/home/nimisha/work1/build/wheels/CMakeFiles/test.dir
+/home/nimisha/work1/build/wheels/CMakeFiles/edit_cache.dir
+/home/nimisha/work1/build/wheels/CMakeFiles/rebuild_cache.dir
+/home/nimisha/work1/build/wheels/CMakeFiles/list_install_components.dir
+/home/nimisha/work1/build/wheels/CMakeFiles/install.dir
+/home/nimisha/work1/build/wheels/CMakeFiles/install/local.dir
+/home/nimisha/work1/build/wheels/CMakeFiles/install/strip.dir

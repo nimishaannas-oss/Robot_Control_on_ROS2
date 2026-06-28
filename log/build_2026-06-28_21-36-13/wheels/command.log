@@ -1,0 +1,6 @@
+Invoking command in '/home/nimisha/work1/build/wheels': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/nimisha/work1/src/wheels -DCMAKE_INSTALL_PREFIX=/home/nimisha/work1/install/wheels
+Invoked command in '/home/nimisha/work1/build/wheels' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/nimisha/work1/src/wheels -DCMAKE_INSTALL_PREFIX=/home/nimisha/work1/install/wheels
+Invoking command in '/home/nimisha/work1/build/wheels': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nimisha/work1/build/wheels -- -j8 -l8
+Invoked command in '/home/nimisha/work1/build/wheels' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nimisha/work1/build/wheels -- -j8 -l8
+Invoking command in '/home/nimisha/work1/build/wheels': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nimisha/work1/build/wheels
+Invoked command in '/home/nimisha/work1/build/wheels' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nimisha/work1/build/wheels

@@ -1,0 +1,4 @@
+Invoking command in '/home/nimisha/work1/build/arms': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nimisha/work1/build/arms -- -j8 -l8
+Invoked command in '/home/nimisha/work1/build/arms' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nimisha/work1/build/arms -- -j8 -l8
+Invoking command in '/home/nimisha/work1/build/arms': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nimisha/work1/build/arms
+Invoked command in '/home/nimisha/work1/build/arms' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nimisha/work1/build/arms

@@ -1,0 +1,9 @@
+/home/nimisha/work1/build/arms/CMakeFiles/uninstall.dir
+/home/nimisha/work1/build/arms/CMakeFiles/arms_uninstall.dir
+/home/nimisha/work1/build/arms/CMakeFiles/test.dir
+/home/nimisha/work1/build/arms/CMakeFiles/edit_cache.dir
+/home/nimisha/work1/build/arms/CMakeFiles/rebuild_cache.dir
+/home/nimisha/work1/build/arms/CMakeFiles/list_install_components.dir
+/home/nimisha/work1/build/arms/CMakeFiles/install.dir
+/home/nimisha/work1/build/arms/CMakeFiles/install/local.dir
+/home/nimisha/work1/build/arms/CMakeFiles/install/strip.dir

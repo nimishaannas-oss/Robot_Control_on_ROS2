@@ -1,0 +1,23 @@
+[0.006s] Invoking command in '/home/nimisha/work1/build/wheels': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nimisha/work1/build/wheels -- -j8 -l8
+[0.034s] Invoked command in '/home/nimisha/work1/build/wheels' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nimisha/work1/build/wheels -- -j8 -l8
+[0.040s] Invoking command in '/home/nimisha/work1/build/wheels': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nimisha/work1/build/wheels
+[0.045s] -- Install configuration: ""
+[0.045s] -- Up-to-date: /home/nimisha/work1/install/wheels/share/wheels/scripts
+[0.045s] -- Installing: /home/nimisha/work1/install/wheels/share/wheels/scripts/wheels.py
+[0.045s] -- Installing: /home/nimisha/work1/install/wheels/lib/wheels/wheels.py
+[0.045s] -- Up-to-date: /home/nimisha/work1/install/wheels/share/ament_index/resource_index/package_run_dependencies/wheels
+[0.045s] -- Up-to-date: /home/nimisha/work1/install/wheels/share/ament_index/resource_index/parent_prefix_path/wheels
+[0.045s] -- Up-to-date: /home/nimisha/work1/install/wheels/share/wheels/environment/ament_prefix_path.sh
+[0.045s] -- Up-to-date: /home/nimisha/work1/install/wheels/share/wheels/environment/ament_prefix_path.dsv
+[0.045s] -- Up-to-date: /home/nimisha/work1/install/wheels/share/wheels/environment/path.sh
+[0.045s] -- Up-to-date: /home/nimisha/work1/install/wheels/share/wheels/environment/path.dsv
+[0.045s] -- Up-to-date: /home/nimisha/work1/install/wheels/share/wheels/local_setup.bash
+[0.045s] -- Up-to-date: /home/nimisha/work1/install/wheels/share/wheels/local_setup.sh
+[0.045s] -- Up-to-date: /home/nimisha/work1/install/wheels/share/wheels/local_setup.zsh
+[0.045s] -- Up-to-date: /home/nimisha/work1/install/wheels/share/wheels/local_setup.dsv
+[0.045s] -- Up-to-date: /home/nimisha/work1/install/wheels/share/wheels/package.dsv
+[0.045s] -- Up-to-date: /home/nimisha/work1/install/wheels/share/ament_index/resource_index/packages/wheels
+[0.045s] -- Up-to-date: /home/nimisha/work1/install/wheels/share/wheels/cmake/wheelsConfig.cmake
+[0.045s] -- Up-to-date: /home/nimisha/work1/install/wheels/share/wheels/cmake/wheelsConfig-version.cmake
+[0.045s] -- Up-to-date: /home/nimisha/work1/install/wheels/share/wheels/package.xml
+[0.046s] Invoked command in '/home/nimisha/work1/build/wheels' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nimisha/work1/build/wheels

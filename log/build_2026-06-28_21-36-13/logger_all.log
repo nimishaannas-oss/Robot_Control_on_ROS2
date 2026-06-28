@@ -1,0 +1,282 @@
+[0.063s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.063s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x75f0af23b190>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x75f0af23ad40>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x75f0af23ad40>>)
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.154s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nimisha/work1'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/arms) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/arms) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/arms) by extension 'ignore_ament_install'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/arms) by extensions ['colcon_pkg']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/arms) by extension 'colcon_pkg'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/arms) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/arms) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/arms) by extensions ['ros']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/arms) by extension 'ros'
+[0.164s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arms' with type 'ros.ament_cmake' and name 'arms'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extension 'ros'
+[0.165s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidar' with type 'ros.ament_cmake' and name 'lidar'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheels) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheels) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheels) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheels) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheels) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheels) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheels) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheels) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheels) by extension 'ros'
+[0.166s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wheels' with type 'ros.ament_cmake' and name 'wheels'
+[0.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.178s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/nimisha/work1/install/wheels' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.178s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/nimisha/work1/install/arms' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.178s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/nimisha/work1/install/lidar' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.178s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/nimisha/work1/install/wheels' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.178s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/nimisha/work1/install/arms' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.179s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/nimisha/work1/install/lidar' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.179s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/nimisha/work1/src/wheels/install
+[0.179s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/nimisha/work1/install
+[0.180s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 273 installed packages in /opt/ros/humble
+[0.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'arms' build argument 'cmake_args' from command line to 'None'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'arms' build argument 'cmake_target' from command line to 'None'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'arms' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'arms' build argument 'cmake_clean_cache' from command line to 'False'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'arms' build argument 'cmake_clean_first' from command line to 'False'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'arms' build argument 'cmake_force_configure' from command line to 'False'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'arms' build argument 'ament_cmake_args' from command line to 'None'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'arms' build argument 'catkin_cmake_args' from command line to 'None'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'arms' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.212s] DEBUG:colcon.colcon_core.verb:Building package 'arms' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nimisha/work1/build/arms', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nimisha/work1/install/arms', 'merge_install': False, 'path': '/home/nimisha/work1/src/arms', 'symlink_install': False, 'test_result_base': None}
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'lidar' build argument 'cmake_args' from command line to 'None'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'lidar' build argument 'cmake_target' from command line to 'None'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'lidar' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'lidar' build argument 'cmake_clean_cache' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'lidar' build argument 'cmake_clean_first' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'lidar' build argument 'cmake_force_configure' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'lidar' build argument 'ament_cmake_args' from command line to 'None'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'lidar' build argument 'catkin_cmake_args' from command line to 'None'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'lidar' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.213s] DEBUG:colcon.colcon_core.verb:Building package 'lidar' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nimisha/work1/build/lidar', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nimisha/work1/install/lidar', 'merge_install': False, 'path': '/home/nimisha/work1/src/lidar', 'symlink_install': False, 'test_result_base': None}
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'wheels' build argument 'cmake_args' from command line to 'None'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'wheels' build argument 'cmake_target' from command line to 'None'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'wheels' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'wheels' build argument 'cmake_clean_cache' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'wheels' build argument 'cmake_clean_first' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'wheels' build argument 'cmake_force_configure' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'wheels' build argument 'ament_cmake_args' from command line to 'None'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'wheels' build argument 'catkin_cmake_args' from command line to 'None'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'wheels' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.213s] DEBUG:colcon.colcon_core.verb:Building package 'wheels' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nimisha/work1/build/wheels', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nimisha/work1/install/wheels', 'merge_install': False, 'path': '/home/nimisha/work1/src/wheels', 'symlink_install': False, 'test_result_base': None}
+[0.213s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.214s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.214s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nimisha/work1/src/arms' with build type 'ament_cmake'
+[0.214s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nimisha/work1/src/arms'
+[0.215s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.215s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.215s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.218s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nimisha/work1/src/lidar' with build type 'ament_cmake'
+[0.218s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nimisha/work1/src/lidar'
+[0.218s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.218s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.220s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nimisha/work1/src/wheels' with build type 'ament_cmake'
+[0.220s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nimisha/work1/src/wheels'
+[0.220s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.220s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.224s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nimisha/work1/build/arms': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/nimisha/work1/src/arms -DCMAKE_INSTALL_PREFIX=/home/nimisha/work1/install/arms
+[0.226s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nimisha/work1/build/lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/nimisha/work1/src/lidar -DCMAKE_INSTALL_PREFIX=/home/nimisha/work1/install/lidar
+[0.229s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nimisha/work1/build/wheels': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/nimisha/work1/src/wheels -DCMAKE_INSTALL_PREFIX=/home/nimisha/work1/install/wheels
+[0.980s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nimisha/work1/build/arms' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/nimisha/work1/src/arms -DCMAKE_INSTALL_PREFIX=/home/nimisha/work1/install/arms
+[0.981s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nimisha/work1/build/arms': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nimisha/work1/build/arms -- -j8 -l8
+[0.997s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nimisha/work1/build/wheels' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/nimisha/work1/src/wheels -DCMAKE_INSTALL_PREFIX=/home/nimisha/work1/install/wheels
+[0.998s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nimisha/work1/build/wheels': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nimisha/work1/build/wheels -- -j8 -l8
+[1.006s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nimisha/work1/build/arms' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nimisha/work1/build/arms -- -j8 -l8
+[1.013s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nimisha/work1/build/arms': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nimisha/work1/build/arms
+[1.014s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nimisha/work1/build/lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/nimisha/work1/src/lidar -DCMAKE_INSTALL_PREFIX=/home/nimisha/work1/install/lidar
+[1.015s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nimisha/work1/build/lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nimisha/work1/build/lidar -- -j8 -l8
+[1.020s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arms)
+[1.020s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nimisha/work1/build/arms' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nimisha/work1/build/arms
+[1.022s] Level 1:colcon.colcon_core.environment:checking '/home/nimisha/work1/install/arms' for CMake module files
+[1.022s] Level 1:colcon.colcon_core.environment:checking '/home/nimisha/work1/install/arms' for CMake config files
+[1.023s] Level 1:colcon.colcon_core.shell:create_environment_hook('arms', 'cmake_prefix_path')
+[1.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nimisha/work1/install/arms/share/arms/hook/cmake_prefix_path.ps1'
+[1.023s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nimisha/work1/install/arms/share/arms/hook/cmake_prefix_path.dsv'
+[1.024s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nimisha/work1/install/arms/share/arms/hook/cmake_prefix_path.sh'
+[1.024s] Level 1:colcon.colcon_core.environment:checking '/home/nimisha/work1/install/arms/lib'
+[1.024s] Level 1:colcon.colcon_core.environment:checking '/home/nimisha/work1/install/arms/bin'
+[1.024s] Level 1:colcon.colcon_core.environment:checking '/home/nimisha/work1/install/arms/lib/pkgconfig/arms.pc'
+[1.025s] Level 1:colcon.colcon_core.environment:checking '/home/nimisha/work1/install/arms/lib/python3.10/site-packages'
+[1.025s] Level 1:colcon.colcon_core.environment:checking '/home/nimisha/work1/install/arms/bin'
+[1.025s] INFO:colcon.colcon_core.shell:Creating package script '/home/nimisha/work1/install/arms/share/arms/package.ps1'
+[1.026s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nimisha/work1/install/arms/share/arms/package.dsv'
+[1.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/nimisha/work1/install/arms/share/arms/package.sh'
+[1.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/nimisha/work1/install/arms/share/arms/package.bash'
+[1.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/nimisha/work1/install/arms/share/arms/package.zsh'
+[1.027s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nimisha/work1/install/arms/share/colcon-core/packages/arms)
+[1.028s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arms)
+[1.028s] Level 1:colcon.colcon_core.environment:checking '/home/nimisha/work1/install/arms' for CMake module files
+[1.028s] Level 1:colcon.colcon_core.environment:checking '/home/nimisha/work1/install/arms' for CMake config files
+[1.028s] Level 1:colcon.colcon_core.shell:create_environment_hook('arms', 'cmake_prefix_path')
+[1.028s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nimisha/work1/install/arms/share/arms/hook/cmake_prefix_path.ps1'
+[1.029s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nimisha/work1/install/arms/share/arms/hook/cmake_prefix_path.dsv'
+[1.029s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nimisha/work1/install/arms/share/arms/hook/cmake_prefix_path.sh'
+[1.029s] Level 1:colcon.colcon_core.environment:checking '/home/nimisha/work1/install/arms/lib'
+[1.029s] Level 1:colcon.colcon_core.environment:checking '/home/nimisha/work1/install/arms/bin'
+[1.029s] Level 1:colcon.colcon_core.environment:checking '/home/nimisha/work1/install/arms/lib/pkgconfig/arms.pc'
+[1.029s] Level 1:colcon.colcon_core.environment:checking '/home/nimisha/work1/install/arms/lib/python3.10/site-packages'
+[1.030s] Level 1:colcon.colcon_core.environment:checking '/home/nimisha/work1/install/arms/bin'
+[1.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/nimisha/work1/install/arms/share/arms/package.ps1'
+[1.030s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nimisha/work1/install/arms/share/arms/package.dsv'
+[1.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/nimisha/work1/install/arms/share/arms/package.sh'
+[1.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/nimisha/work1/install/arms/share/arms/package.bash'
+[1.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/nimisha/work1/install/arms/share/arms/package.zsh'
+[1.031s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nimisha/work1/install/arms/share/colcon-core/packages/arms)
+[1.032s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nimisha/work1/build/wheels' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nimisha/work1/build/wheels -- -j8 -l8
+[1.033s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nimisha/work1/build/wheels': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nimisha/work1/build/wheels
+[1.040s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nimisha/work1/build/lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nimisha/work1/build/lidar -- -j8 -l8
+[1.040s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nimisha/work1/build/lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nimisha/work1/build/lidar
+[1.041s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wheels)
+[1.041s] Level 1:colcon.colcon_core.environment:checking '/home/nimisha/work1/install/wheels' for CMake module files
+[1.042s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nimisha/work1/build/wheels' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nimisha/work1/build/wheels
+[1.042s] Level 1:colcon.colcon_core.environment:checking '/home/nimisha/work1/install/wheels' for CMake config files
+[1.042s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheels', 'cmake_prefix_path')
+[1.042s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nimisha/work1/install/wheels/share/wheels/hook/cmake_prefix_path.ps1'
+[1.042s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nimisha/work1/install/wheels/share/wheels/hook/cmake_prefix_path.dsv'
+[1.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nimisha/work1/install/wheels/share/wheels/hook/cmake_prefix_path.sh'
+[1.043s] Level 1:colcon.colcon_core.environment:checking '/home/nimisha/work1/install/wheels/lib'
+[1.043s] Level 1:colcon.colcon_core.environment:checking '/home/nimisha/work1/install/wheels/bin'
+[1.043s] Level 1:colcon.colcon_core.environment:checking '/home/nimisha/work1/install/wheels/lib/pkgconfig/wheels.pc'
+[1.044s] Level 1:colcon.colcon_core.environment:checking '/home/nimisha/work1/install/wheels/lib/python3.10/site-packages'
+[1.044s] Level 1:colcon.colcon_core.environment:checking '/home/nimisha/work1/install/wheels/bin'
+[1.044s] INFO:colcon.colcon_core.shell:Creating package script '/home/nimisha/work1/install/wheels/share/wheels/package.ps1'
+[1.045s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nimisha/work1/install/wheels/share/wheels/package.dsv'
+[1.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/nimisha/work1/install/wheels/share/wheels/package.sh'
+[1.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/nimisha/work1/install/wheels/share/wheels/package.bash'
+[1.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/nimisha/work1/install/wheels/share/wheels/package.zsh'
+[1.045s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nimisha/work1/install/wheels/share/colcon-core/packages/wheels)
+[1.046s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wheels)
+[1.046s] Level 1:colcon.colcon_core.environment:checking '/home/nimisha/work1/install/wheels' for CMake module files
+[1.047s] Level 1:colcon.colcon_core.environment:checking '/home/nimisha/work1/install/wheels' for CMake config files
+[1.048s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheels', 'cmake_prefix_path')
+[1.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nimisha/work1/install/wheels/share/wheels/hook/cmake_prefix_path.ps1'
+[1.048s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nimisha/work1/install/wheels/share/wheels/hook/cmake_prefix_path.dsv'
+[1.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nimisha/work1/install/wheels/share/wheels/hook/cmake_prefix_path.sh'
+[1.049s] Level 1:colcon.colcon_core.environment:checking '/home/nimisha/work1/install/wheels/lib'
+[1.049s] Level 1:colcon.colcon_core.environment:checking '/home/nimisha/work1/install/wheels/bin'
+[1.049s] Level 1:colcon.colcon_core.environment:checking '/home/nimisha/work1/install/wheels/lib/pkgconfig/wheels.pc'
+[1.049s] Level 1:colcon.colcon_core.environment:checking '/home/nimisha/work1/install/wheels/lib/python3.10/site-packages'
+[1.049s] Level 1:colcon.colcon_core.environment:checking '/home/nimisha/work1/install/wheels/bin'
+[1.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/nimisha/work1/install/wheels/share/wheels/package.ps1'
+[1.050s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nimisha/work1/install/wheels/share/wheels/package.dsv'
+[1.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/nimisha/work1/install/wheels/share/wheels/package.sh'
+[1.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/nimisha/work1/install/wheels/share/wheels/package.bash'
+[1.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/nimisha/work1/install/wheels/share/wheels/package.zsh'
+[1.051s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nimisha/work1/install/wheels/share/colcon-core/packages/wheels)
+[1.051s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lidar)
+[1.051s] Level 1:colcon.colcon_core.environment:checking '/home/nimisha/work1/install/lidar' for CMake module files
+[1.052s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nimisha/work1/build/lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nimisha/work1/build/lidar
+[1.052s] Level 1:colcon.colcon_core.environment:checking '/home/nimisha/work1/install/lidar' for CMake config files
+[1.052s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar', 'cmake_prefix_path')
+[1.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nimisha/work1/install/lidar/share/lidar/hook/cmake_prefix_path.ps1'
+[1.052s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nimisha/work1/install/lidar/share/lidar/hook/cmake_prefix_path.dsv'
+[1.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nimisha/work1/install/lidar/share/lidar/hook/cmake_prefix_path.sh'
+[1.053s] Level 1:colcon.colcon_core.environment:checking '/home/nimisha/work1/install/lidar/lib'
+[1.053s] Level 1:colcon.colcon_core.environment:checking '/home/nimisha/work1/install/lidar/bin'
+[1.053s] Level 1:colcon.colcon_core.environment:checking '/home/nimisha/work1/install/lidar/lib/pkgconfig/lidar.pc'
+[1.053s] Level 1:colcon.colcon_core.environment:checking '/home/nimisha/work1/install/lidar/lib/python3.10/site-packages'
+[1.053s] Level 1:colcon.colcon_core.environment:checking '/home/nimisha/work1/install/lidar/bin'
+[1.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/nimisha/work1/install/lidar/share/lidar/package.ps1'
+[1.054s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nimisha/work1/install/lidar/share/lidar/package.dsv'
+[1.054s] INFO:colcon.colcon_core.shell:Creating package script '/home/nimisha/work1/install/lidar/share/lidar/package.sh'
+[1.054s] INFO:colcon.colcon_core.shell:Creating package script '/home/nimisha/work1/install/lidar/share/lidar/package.bash'
+[1.054s] INFO:colcon.colcon_core.shell:Creating package script '/home/nimisha/work1/install/lidar/share/lidar/package.zsh'
+[1.054s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nimisha/work1/install/lidar/share/colcon-core/packages/lidar)
+[1.055s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lidar)
+[1.055s] Level 1:colcon.colcon_core.environment:checking '/home/nimisha/work1/install/lidar' for CMake module files
+[1.055s] Level 1:colcon.colcon_core.environment:checking '/home/nimisha/work1/install/lidar' for CMake config files
+[1.055s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar', 'cmake_prefix_path')
+[1.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nimisha/work1/install/lidar/share/lidar/hook/cmake_prefix_path.ps1'
+[1.056s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nimisha/work1/install/lidar/share/lidar/hook/cmake_prefix_path.dsv'
+[1.056s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nimisha/work1/install/lidar/share/lidar/hook/cmake_prefix_path.sh'
+[1.056s] Level 1:colcon.colcon_core.environment:checking '/home/nimisha/work1/install/lidar/lib'
+[1.056s] Level 1:colcon.colcon_core.environment:checking '/home/nimisha/work1/install/lidar/bin'
+[1.056s] Level 1:colcon.colcon_core.environment:checking '/home/nimisha/work1/install/lidar/lib/pkgconfig/lidar.pc'
+[1.056s] Level 1:colcon.colcon_core.environment:checking '/home/nimisha/work1/install/lidar/lib/python3.10/site-packages'
+[1.056s] Level 1:colcon.colcon_core.environment:checking '/home/nimisha/work1/install/lidar/bin'
+[1.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/nimisha/work1/install/lidar/share/lidar/package.ps1'
+[1.057s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nimisha/work1/install/lidar/share/lidar/package.dsv'
+[1.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/nimisha/work1/install/lidar/share/lidar/package.sh'
+[1.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/nimisha/work1/install/lidar/share/lidar/package.bash'
+[1.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/nimisha/work1/install/lidar/share/lidar/package.zsh'
+[1.058s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nimisha/work1/install/lidar/share/colcon-core/packages/lidar)
+[1.058s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.058s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.058s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.058s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.062s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.062s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.062s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.070s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.070s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nimisha/work1/install/local_setup.ps1'
+[1.071s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nimisha/work1/install/_local_setup_util_ps1.py'
+[1.072s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nimisha/work1/install/setup.ps1'
+[1.073s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nimisha/work1/install/local_setup.sh'
+[1.073s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nimisha/work1/install/_local_setup_util_sh.py'
+[1.073s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nimisha/work1/install/setup.sh'
+[1.074s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nimisha/work1/install/local_setup.bash'
+[1.074s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nimisha/work1/install/setup.bash'
+[1.075s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nimisha/work1/install/local_setup.zsh'
+[1.075s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nimisha/work1/install/setup.zsh'

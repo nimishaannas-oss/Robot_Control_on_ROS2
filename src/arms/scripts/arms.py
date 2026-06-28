@@ -23,23 +23,17 @@ class Arms(Node):
 
         wheels_moving = msg.data
 
-        if wheels_moving:
-
-            if self.arms_moving:
-                self.get_logger().info(
-                    'Wheels moving -> Arms STOPPED'
-                )
-
+        if wheels_moving and self.arms_moving:
             self.arms_moving = False
+            self.get_logger().info(
+                'Wheels moving -> Arms STOPPED'
+            )
 
-        else:
-
-            if not self.arms_moving:
-                self.get_logger().info(
-                    'Wheels stopped -> Arms MOVING'
-                )
-
+        elif not wheels_moving and not self.arms_moving:
             self.arms_moving = True
+            self.get_logger().info(
+                'Wheels stopped -> Arms MOVING'
+            )
 
 
 def main(args=None):

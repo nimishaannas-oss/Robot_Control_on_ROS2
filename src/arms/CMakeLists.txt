@@ -10,6 +10,19 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 
+install(
+  DIRECTORY
+    scripts
+  DESTINATION share/${PROJECT_NAME}
+)
+
+ install(
+   PROGRAMS
+     scripts/arms.py
+   DESTINATION lib/${PROJECT_NAME}
+)
+
+
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights
